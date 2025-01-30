@@ -1,0 +1,20 @@
+{
+  "name": "yt2audio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["YouTube, MP3, converter, download, audio, youtube to mp3, ytmp3, y2mate"],
+  "author": "Rizko Imsar",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "ytdl-core": "^4.11.5"
+  }
+}
